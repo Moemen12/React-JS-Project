@@ -1,9 +1,9 @@
-import Starter from './tutorial/01-useState/starter/04-useState-object';
+import Starter from "./tutorial/06-forms/starter/05-form-data";
 
 function App() {
   return (
-    <div className='container'>
-      <Starter/>
+    <div className="container">
+      <Starter />
     </div>
   );
 }

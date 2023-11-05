@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const UseEffectBasics = () => {
   const [value, setValue] = useState(0);
@@ -7,6 +7,10 @@ const UseEffectBasics = () => {
   };
 
   sayHello();
+  
+  useEffect(()=>{
+      console.log('Hello From useEffect');
+  },[])
 
   return (
     <div>
